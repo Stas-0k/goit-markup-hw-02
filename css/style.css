@@ -1,0 +1,82 @@
+/*цвет основного текста #757575*/
+/*цвет меню+заголовки #212121*/
+/*белый #FFFFFF  */
+/*наведение на кнопки #2196F3 */
+/*цвет фона #2F303A*/
+
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --background-hero:#2F303A
+}
+
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-img {
+    color: var(--accent-color);
+}
+
+
+.site-nav .link,
+{
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus
+{
+    color: var(--accent-color);
+}
+
+.auth .link {
+    color: var(--primary-text-color);
+}
+
+.auth .link:hover,
+.auth .link:focus
+{
+    color: var(--accent-color)
+}
+
+.section .hero-header {
+    color: var(--primary-white-color);
+    background-color: var(--background-hero);
+}
+
+.section .button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color)
+}
+
+.section .head-name {
+    color: var(--title-text-color);
+}
+
+.auth .link {
+    color: var(--title-text-color);
+}
+
+.footer .logo-img {
+    color: var(--accent-color);
+}
+
+.footer {
+
+    background-color: var(--background-hero);
+}
+.footer .footer-primary {
+    color: var(--primary-white-color);
+}
+
+.footer .footer-second {
+    color: var(--primary-text-color);
+}
