@@ -134,9 +134,7 @@ body {
 .footer .footer-main {
   color: var(--primary-white-color);
 
-  font-family: Raleway, sans-serif;
-  font-weight: 700; 
-  
+  font-family: Raleway, sans-serif;   
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
